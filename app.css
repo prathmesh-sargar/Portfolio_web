@@ -1,0 +1,81 @@
+.edit-from {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "poppins", sans-serif;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+ .edit-from body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .edit-from {
+    width: 380px;
+    padding: 30px;
+    margin: 5px;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    background-color: transparent;
+  }
+  .edit-from h4 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: rgb(5, 4, 4);
+  }
+ .edit-from input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 2px 1px 2px 1px black;
+  }
+  .edit-from textarea {
+    width: 305px;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px 1px black;
+  }
+  .edit-from #submit {
+    border: none;
+    background-color: orangered;
+    color: white;
+    width: 160px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+
+  }
+  .edit-from #submit:hover {
+    background-color: #0a0c0a;
+  }
+  .edit-from body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 6s ease infinite;
+    height: 100vh;
+  }
+ .edit-from .area01{
+  height: 70px;
+  width: 287px;
+ }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+
+  
